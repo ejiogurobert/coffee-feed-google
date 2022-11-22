@@ -46,7 +46,6 @@ class data extends Command
         $this->info(string: 'Welcome to the XML file');
         $newData = $this->getXmlDataToArray($array);
         $class->saveDataToSpreadsheet($newData);
-        // $this->google_sheet->saveDataToSheet($newData);
         //     dump($newData);
         // info(json_encode($newData));
     }
